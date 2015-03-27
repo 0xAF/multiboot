@@ -18,7 +18,8 @@ Information comes from [pendrivelinux.com](http://www.pendrivelinux.com/boot-mul
 
 ## Test ##
 I'm testing the USB drive with QEMU:
-`qemu-system-x86_64 -enable-kvm -smp 4 -m 256 -hda /dev/sdc`
+`qemu-system-x86_64 -enable-kvm -smp 4 -m 256 -hda /dev/sdc`.
+Use min 1024MB RAM to test Hiren's Boot CD (`-m 1024`)
 
 ***
 
