@@ -13,6 +13,7 @@ Information comes from [pendrivelinux.com](http://www.pendrivelinux.com/boot-mul
 4. `mkdir /mnt/USB && mount ${USBDRIVE}1 /mnt/USB`
 5. `grub2-install --force --no-floppy --boot-directory=/mnt/USB/boot $USBDRIVE`
 6. copy and overwrite all files on USB drive with this repository
+7. checkout `boot/grub/files.cfg`, to download some images
 
 ***
 
